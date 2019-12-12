@@ -15,6 +15,9 @@
 		DC1A4343236E77EF008D5C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1A4341236E77EF008D5C9E /* LaunchScreen.storyboard */; };
 		DC1A434E236E77F0008D5C9E /* iOsNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A434D236E77F0008D5C9E /* iOsNoteTests.swift */; };
 		DC1A4359236E77F0008D5C9E /* iOsNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A4358236E77F0008D5C9E /* iOsNoteUITests.swift */; };
+		DC1A4891236E86CF008D5C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A4890236E86CF008D5C9E /* ViewController.swift */; };
+		DC1A4892236E86CF008D5C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A4890236E86CF008D5C9E /* ViewController.swift */; };
+		DC1A4893236E86CF008D5C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A4890236E86CF008D5C9E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		DC1A4354236E77F0008D5C9E /* iOsNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOsNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1A4358236E77F0008D5C9E /* iOsNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOsNoteUITests.swift; sourceTree = "<group>"; };
 		DC1A435A236E77F0008D5C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1A4890236E86CF008D5C9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				DC1A4341236E77EF008D5C9E /* LaunchScreen.storyboard */,
 				DC1A4344236E77EF008D5C9E /* Info.plist */,
 				DC1A433E236E77EF008D5C9E /* Preview Content */,
+				DC1A4890236E86CF008D5C9E /* ViewController.swift */,
 			);
 			path = iOsNote;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 			files = (
 				DC1A4337236E77EE008D5C9E /* AppDelegate.swift in Sources */,
 				DC1A4339236E77EE008D5C9E /* SceneDelegate.swift in Sources */,
+				DC1A4891236E86CF008D5C9E /* ViewController.swift in Sources */,
 				DC1A433B236E77EE008D5C9E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1A4892236E86CF008D5C9E /* ViewController.swift in Sources */,
 				DC1A434E236E77F0008D5C9E /* iOsNoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1A4893236E86CF008D5C9E /* ViewController.swift in Sources */,
 				DC1A4359236E77F0008D5C9E /* iOsNoteUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
